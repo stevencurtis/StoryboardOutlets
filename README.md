@@ -21,22 +21,23 @@ This is covered in my  [Single View Application](https://medium.com/swlh/your-fi
 ## Add a UILabel to the Storyboard
 Select the `Main.storyboard` file from the project inspector on the left-hand side. The  `UIViewController` appears, and allows us to use the + symbol to be able to add objects
 ![addobject](Images/addobject.png)
-which can then be added by choosing  `UILabel` 
-![chooseobject](Images/chooseobject.png)
-and a simple drag-drop operation will help us out here.
-![addLabel](Movies/addLabel.mov)
+which can then be added by choosing  `UILabel` <br/>
+![chooseobject](Images/chooseobject.png)<br/>
+and a simple drag-drop operation will help us out here.<br/>
+![addLabel](Movies/addLabel.gif)<br/>
+<br/>
 Now by dragging and dropping the `UILabel` and matching the blue lines when we drop it onto the centre of the `UIViewController` it will match to the centre - exactly what we would want!
 
 ## Connect the UILabel to the Swift file
 The `UILabel` needs to be connected to the `ViewController.swift` file (assuming that you have left the `UIViewController` called *ViewController*). We are going to name this `UILabel` instance as *label* (creativity is everything, right?).
 ### Loading the Assistant editor
-With the Storyboard still selected, we can select the following jump bar icon:
-![jumpbaricon](Images/jumpbaricon.png)
+With the Storyboard still selected, we can select the following jump bar icon:<br/>
+![jumpbaricon](Images/jumpbaricon.png)<br/>
 which when placed on the jump bar is towards the right of the screen
 ![chooseassistanteditor](Images/chooseassistanteditor.png)
 As shown, select *Assistant*. 
 The following part is actually quite easy / tricky depending on how you see it. We need to control-drag from the `UILabel` to the `ViewController.swift` file. 
-![addLabel](Movies/ControlDragLabel.mov)
+![addLabel](Movies/ControlDragLabel.gif)
 as you see, I've then named the outlet as **label**
 
 ## Access the UILabel from the view controller
