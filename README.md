@@ -24,7 +24,7 @@ Select the `Main.storyboard` file from the project inspector on the left-hand si
 which can then be added by choosing  `UILabel` <br/>
 ![chooseobject](Images/chooseobject.png)<br/>
 and a simple drag-drop operation will help us out here.<br/>
-![addLabel](Movies/addLabel.gif)<br/>
+![addLabel](Movies/AddLabel.gif)<br/>
 <br/>
 Now by dragging and dropping the `UILabel` and matching the blue lines when we drop it onto the centre of the `UIViewController` it will match to the centre - exactly what we would want!
 
@@ -43,7 +43,7 @@ as you see, I've then named the outlet as **label**
 ## Access the UILabel from the view controller
 The `UILabel` can then be accessed from the view controller as normal. That is, we just set `label.text = "Hello, World!"` as I've done in the `viewDidLoad()` function. 
 ![vdlabel](Images/vdlabel.png)
-which leaves us with the following view controller code.
+which leaves us with the following view controller code.<br/>
 ![completeViewController](Images/completeViewController.png)
 
 # Conclusion
