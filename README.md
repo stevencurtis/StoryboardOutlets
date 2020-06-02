@@ -42,9 +42,11 @@ as you see, I've then named the outlet as **label**
 
 ## Access the UILabel from the view controller
 The `UILabel` can then be accessed from the view controller as normal. That is, we just set `label.text = "Hello, World!"` as I've done in the `viewDidLoad()` function. 
-![vdlabel](Images/vdlabel.png)
+![vdlabel](Images/vdlabel.png)<br/>
 which leaves us with the following view controller code.<br/>
 ![completeViewController](Images/completeViewController.png)
 
 # Conclusion
+This is a task, that if you use the storyboard you'll encounter often while producing great apps in Swift for iOS. I hope this short article really helps you out and brings clarity to this process.
+
 If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis) 
