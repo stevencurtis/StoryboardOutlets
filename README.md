@@ -8,7 +8,7 @@
 
 The idea of this tutorial is to add objects to the storyboard and be able to update them programatically in the `UIViewController`. Possible? Sure. How? This article!
 
-Difficulty: **Beginner** | Easy | Normal | Challenging
+Difficulty: **Beginner** | Easy | Normal | Challenging<br/>
 This article has been developed using Xcode 11.4.1, and Swift 5.2.2
 
 ## Prerequisites: 
